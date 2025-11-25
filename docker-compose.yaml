@@ -52,6 +52,8 @@ services:
 
 volumes:
   mongo-data:
+    external: true
+    name: react-todolist_mongo-data
 
 networks:
   app-network:
